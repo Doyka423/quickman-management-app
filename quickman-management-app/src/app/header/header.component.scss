@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    box-shadow: 2px 2px 2px rgba($color: #3b3b3b, $alpha: 1.0);
+}
+
+.logo img {
+    max-height: 60x; /* Passe die Höhe nach Bedarf an */
+}
+
+.logo {
+    height: 60px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 15px; /* Abstand zwischen den Navigationslinks */
+}
+
+nav li:last-child {
+    margin-right: 0; /* Kein Abstand für das letzte Element */
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.3s ease; /* Füge eine sanfte Animation hinzu */
+}
+
+nav li a:hover {
+    border-bottom: 2px solid #c7c7c7; /* Ändere die Farbe bei Hover */
+    color: #c7c7c7;
+}
+
