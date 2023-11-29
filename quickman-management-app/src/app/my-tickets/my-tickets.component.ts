@@ -2,10 +2,12 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 @Component({
-  selector: 'app-header',
+  selector: 'app-my-tickets',
   standalone: true,
   imports: [CommonModule],
-  templateUrl: './header.component.html',
-  styleUrl: './header.component.scss',
+  templateUrl: './my-tickets.component.html',
+  styleUrl: './my-tickets.component.scss'
 })
-export class HeaderComponent {}
+export class MyTicketsComponent {
+
+}
